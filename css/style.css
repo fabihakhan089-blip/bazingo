@@ -1,0 +1,525 @@
+@font-face {
+    font-family:ITCAvantGardePro;
+    src: url(../fonts/ITCAvantGardePro/fonnts.com-ITC_Avant_Garde_Gothic_Pro_Book.otf);
+}
+@font-face {
+    font-family: EthnocentricRg;
+    src: url(../fonts/ethnocentric\ rg.ttf);
+}
+
+body{
+    background: url(../images/back.jpg);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+    background: none;
+    border: none;
+}
+.wrapper{
+    max-width: 982px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.header{
+    width: 100%;
+     height: 820px;
+    background: url(../images/header.jpg);
+    background-size: cover;
+   
+
+
+}
+.head{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.head a img{
+    margin-top: 78px;
+}
+.head h2{
+    font-family:ITCAvantGardePro;
+    font-size: 3.6rem;
+    color: #fff;
+}
+.nav{
+    position: absolute;
+    left: 80px;
+    top: 35px;
+
+}
+.nav ul li{
+    list-style-type: disc;
+    color: #4a5049;
+    font-size: 2rem;
+    line-height: 30px;
+}
+.nav ul li a{
+    font-family: Open Sans;
+    font-size: 1.2rem;
+    color: #4a5049;
+
+}
+.nav ul li:hover{
+    color: #ed1c24;
+}
+.nav ul li a:hover{
+    margin-left: -5px;
+    color: #fff;
+}
+.heading{
+    width: 100%;
+}
+.heading h2{
+    font-family: EthnocentricRg;
+    font-size: 4.1rem;
+    color: #ed1c24;
+    text-align: center;
+    padding: 140px 0px 45px 0px;
+    
+}
+.heading h2 span{
+    color: black;
+}
+.row1{
+    width: 100%;
+    height: 592px;
+    background-color: #ed1c24;
+}
+.shape{
+    width: 0px;
+    height: 0px;
+    border-top: 85px solid #ed1c24;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    margin: auto;
+}
+.row1-col{
+    width: 100%;
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+    
+}
+.row1-child{
+    width: 210px;
+    height: 500px;
+   display: flex;
+   flex-direction:column ;
+   align-items: center;
+   justify-content: space-around;
+}
+.row1-box{
+    width: 95px;
+    height: 95px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+}
+.row1 h2{
+    width: 154px;
+    font-family: Bebas Neue;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+.row1 p{
+    width: 190px;
+    height: 200px;
+    font-family: ITCAvantGardePro;
+    font-size: 0.8rem;
+    color: #fff;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: justify;
+    
+}
+
+.heading2{
+    width: 100%;
+}
+.heading2 h2{
+    font-family: EthnocentricRg;
+    font-size: 4.1rem;
+    color: #27a9e1;
+    text-align: center;
+    padding: 140px 0px 45px 0px;
+    
+}
+.heading2 h2 span{
+    color: black;
+}
+.row2{
+    width: 100%;
+    height: 529px;
+    background-color:#27a9e1;
+}
+.shape2{
+    width: 0px;
+    height: 0px;
+    border-top: 85px solid #27a9e1;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    margin: auto;
+}
+.row2-col{
+    width: 100%;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.row2-col h2{
+    font-family: Bebas Neue;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: normal;
+}
+.row2-col p{
+    font-family:ITCAvantGardePro ;
+    font-size:1.1rem ;
+    color: #fff;
+    font-weight: normal;
+}
+.heading3{
+    width: 100%;
+}
+.heading3 h2{
+    font-family: EthnocentricRg;
+    font-size: 4.1rem;
+    color: #ed1c24;
+    text-align: center;
+    padding: 140px 0px 45px 0px;
+    
+}
+.heading3 h2 span{
+    color: black;
+}
+.row11{
+    width: 100%;
+    height: 592px;
+    background-color: #ed1c24;
+}
+.pics{
+    width: 100%;
+    height: 567px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pic-child{
+    width: 281px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.clipy{
+    width:322px;
+    height: 312px;
+    clip-path: polygon(70% 1%, 94% 60%, 50% 96%, 8% 73%, 10% 18%);
+    background-color: #000;
+
+}
+.clipy img{
+    padding: 59px 0px 26px 25px;
+}
+.row11 .one{
+    font-family: Bebas Neue;
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 6px 0px 6px 14px;
+}
+.row11 .two{
+    font-family: ITCAvantGardePro;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: normal;
+    padding-left: 14px;
+}
+.heading4{
+    width: 100%;
+}
+.heading4 h2{
+    font-family: EthnocentricRg;
+    font-size: 4.1rem;
+    color:#27a9e1;
+    text-align: center;
+    padding: 140px 0px 45px 0px;
+    
+}
+.heading4 h2 span{
+    color: black;
+}
+.row3{
+    width: 100%;
+    /* height: 1000px; */
+    background-color:#27a9e1;
+   
+}
+.row3-col{
+    width: 100%;
+    height: 830px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.row3-child{
+    width: 318px;
+    height: 291px;
+    background-color: #f3f3f3;
+    
+     display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    
+}
+.row3-child h2{
+    /* width: 303px; */
+    font-family: Bebas Neue;
+    font-size: 2.1rem;
+    color: #27a9e1;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 16px;
+    
+}
+.are{
+    color: #000;
+}
+.row3-child p{
+    /* width: 320px; */
+    height: 253px;
+    font-family: ITCAvantGardePro;
+    font-size: 0.7rem;
+    color: #46bdf1;
+    text-align: justify;
+    line-height: 28px;
+    padding: 16px 14px;
+}
+.anc2{
+   /* width: 312px; */
+   display: inline-block;
+    background-color: #1c98cd;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0px 12px 0px;
+    font-family:Bebas Neue ;
+    font-size: 1.2rem;
+}
+ .anc{
+    text-decoration: underline;
+    color: #000;
+    display: block;
+    text-align: center;
+    
+}
+.heading6{
+    width: 100%;
+}
+.heading6 .hhead{
+    font-family: EthnocentricRg;
+    font-size: 4.1rem;
+    color: #ed1c24;
+    text-align: center;
+    padding: 140px 0px 45px 0px;
+    
+}
+.pp{
+    width:100%;
+    height: 66px;
+    text-align: center;
+    font-family:ITCAvantGarde;
+    font-size: 1.9rem;
+    color: #b4a6a6;
+}
+.row4{
+    width: 100%;
+    height: 1138px;
+    background-color: #ed1c24;
+}
+.row4-child{
+    width: 100%;
+    /* height: 196px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+
+}
+.row4 h2{
+    /* width: 982px; */
+    font-family:Bebas Neue;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2.5rem;
+   padding-top: 29px;
+}
+.para{
+    /* width: 100%; */
+    font-family:ITCAvantGardePro ;
+    font-size:1.1rem ;
+    color:#fff ;
+    font-weight: normal;
+    text-align: center;
+
+}
+.para2{
+    
+     font-family:ITCAvantGardePro ;
+    font-size:1.1rem ;
+    color:#fff ;
+    font-weight: normal;
+}
+.anc3{
+    color: #000;
+    text-decoration: underline;
+}
+.para3{
+    width: 381px;
+     font-family:ITCAvantGardePro ;
+    font-size:1.1rem ;
+    color:#fff ;
+    font-weight: normal;
+    text-align: center;
+}
+.row4-child2{
+    width: 100%;
+    /* display: flex; */
+}
+.hh{
+    width: 47px;
+    font-family: Bebas Neue;
+    font-size: 1.8rem;
+    color: #fff;
+    
+
+}
+.name{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-around;
+}
+.row4-child2 input{
+    width: 425px;
+    height: 52px;
+    border: 2px solid #fff;
+    padding-left:19px ;
+    font-family: ITCAvantGardePro;
+    font-size: 1.1rem;
+    color: #ff5f65;
+    border-radius: 10px;
+}
+/* .msg{
+    width: 492px;
+    display: flex;
+} */
+.hhh{
+    width: 47px;
+    font-family: Bebas Neue;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.msg {
+    width: 921px;
+    height: 133px;
+    border: 2px solid #fff;
+    padding: 12px 12px;
+    font-family: ITCAvantGardePro;
+    font-size: 1.1rem;
+    color: #ff5f65;
+    border-radius: 10px;
+}
+.button{
+    width: 174px;
+    height: 53px;
+    background-color: #fff;
+    color: #ed1c24;
+    font-family: Bebas Neue;
+    font-size: 1.8rem;
+    margin-top: 17px;
+    border-radius: 5px;
+    border-bottom:  10px solid #ba0103;
+
+}
+.row5{
+    width: 100%;
+    height: 222px;
+    background-color: #3f3d3d;
+    margin-top: 123px;
+}
+.flogo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 36px;
+    align-items: center;
+}
+
+.row5 p{
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: OpenSans;
+    text-align: center;
+}
+.icons{
+    width: 100%;
+    height: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+}
+
+.icons li a{
+    width: 38px;
+    height: 38px;
+    background-color:#202020 ;
+    border-top-right-radius:10px ;
+     border-bottom-left-radius:10px ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons li a i{
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.icons li:hover a{
+    background-color: #fff;
+ 
+}
+.icons li:hover a i{
+    color: #000;
+} 
